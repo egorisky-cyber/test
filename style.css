@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* navbar */
+header{
+    background-color: black;
+    width: 100%;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar .nav-list{
+    display: flex;
+    gap: 16px;
+}
+.navbar .nav-list a{
+    color: white;
+    padding: 10px 18px;
+    transition: 0.3s ease;
+}
+.navbar .nav-list a:hover{
+    color: gray;
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+.pri-btp{
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.pri-btn{
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+/* hero-section */
+.herosection{
+    background-color: black;
+    min-height: 100vh;
+}
+.herosection .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100hv;
+    color: #fff;
+}
+.left-content p{
+    margin-bottom: 20px;
+}
+.left-content{
+    max-width: 88%;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.left-content h1{
+    max-width: 88%;
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
